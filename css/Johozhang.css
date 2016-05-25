@@ -1,0 +1,22 @@
+* {
+			margin:0;
+			padding:0;
+		}
+		ul,li {
+			list-style: none;
+		}
+		#rightBar {
+			display: none;
+			position: fixed;
+			right:0;
+			top:0;
+			width:120px;
+			height: 100%;
+			background-color: hsla(0,100%,0%,0.3);
+		}
+		#rightBar li{
+			height: 20%;
+		}
+		#main {
+			width:200px;
+		}
